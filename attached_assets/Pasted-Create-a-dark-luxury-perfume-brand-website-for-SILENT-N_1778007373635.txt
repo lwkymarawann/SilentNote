@@ -1,0 +1,31 @@
+Create a dark, luxury perfume brand website for SILENT NOTE — an Egyptian affordable perfume brand. The design should feel like a high-end fragrance house: dark backgrounds (deep black/charcoal), gold or warm amber accents, elegant serif typography for headings, and soft glowing product imagery.
+Design inspiration: Mirror the layout of the Sage skincare site — large hero section with brand name in massive editorial serif font overlaid on a moody full-bleed image (dark smoke, amber glass bottles, candlelight aesthetic). Sections should alternate between full-width imagery and text+product grid layouts.
+Color palette: Near-black (#0a0a0a or #111), warm gold (#c9a96e), off-white (#f5f0e8), deep charcoal (#1c1c1c)
+Sections to include:
+
+Hero — Full-bleed dark atmospheric image, giant "SILENT NOTE" in elegant serif, tagline: "Luxury Inspired. Locally Priced."
+Philosophy section — Short brand statement: inspired by the world's most iconic scents, crafted for you at 350 EGP
+Product Grid — Cards for all 14 fragrances. Each card shows: scent name in large text, "Inspired by [original]" in small italic, price 350 EGP, Add to Cart button. Products:
+
+
+WARM EMBER — Inspired by Stronger With You
+NIGHT SECRET — Inspired by Scandal By Night
+ECHO — Inspired by YSL Y
+SOUL — Inspired by Libre Intense
+IGNITE — Inspired by Le Male Elixir
+SCARLET — Inspired by L'Interdit Rouge
+CONIACK — Inspired by Angels' Share
+MAGNETIC — Inspired by Ultra Male
+MIDNIGHT AURA — Inspired by Born In Roma Intense
+SAKURA — Inspired by Yara
+SUGAR VELVET — Inspired by Kayali Vanilla 28
+AQUA — Inspired by Le Beau
+RICH — Inspired by Khamrah Lattafa
+STORM — Inspired by Sauvage
+
+
+Feature banner — Full-width dark section: "One scent. One price. 350 EGP."
+Footer — Minimal dark footer with Instagram link, WhatsApp order button, brand name
+
+Typography: Use Playfair Display or Cormorant Garamond for headings. Clean sans-serif (Inter or DM Sans) for body. Gold underlines/dividers.
+Mood: Think Tom Ford meets local luxury. Dark, smoky, confident, minimal.

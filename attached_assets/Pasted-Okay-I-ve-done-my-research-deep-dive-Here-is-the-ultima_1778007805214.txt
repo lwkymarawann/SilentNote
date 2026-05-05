@@ -1,0 +1,80 @@
+Okay, I've done my research deep dive. Here is the ultimate prompt — copy and paste this into Replit:
+
+🖤 THE PROMPT:
+
+Completely redesign the SILENT NOTE perfume website to be a world-class, award-winning dark luxury experience. Here are the EXACT animations and techniques I want — implement ALL of them:
+
+🎬 LOADING SCREEN
+
+On first load, show a full-screen black intro with "SILENT NOTE" appearing letter by letter from opacity 0, staggered with 80ms delay between each letter
+After 2 seconds, the letters disperse/blur outward and fade away, then the page reveals underneath with a smooth wipe
+
+
+🖱️ CUSTOM CURSOR
+
+Replace the default cursor with a small glowing gold dot (8px)
+Behind it, add a larger soft gold circle (40px) that follows with a slight lag/delay — like a magnetic trailing effect
+On hover over buttons or product cards, the large circle expands and blurs slightly
+
+
+🦸 HERO SECTION
+
+Full-screen dark video or deep black background with animated CSS smoke/mist particles floating upward (use canvas particles — small white/gold dots drifting slowly like smoke)
+"SILENT NOTE" in massive editorial serif font (Cormorant Garamond or Playfair Display, 120px+), overlaid on top
+Subtitle fades in from below: "Luxury Inspired. Locally Priced."
+Add a horizontal marquee ticker scrolling continuously at the bottom of the hero: WARM EMBER · NIGHT SECRET · ECHO · SOUL · IGNITE · SCARLET · CONIACK · MAGNETIC · MIDNIGHT AURA · — in gold, looping endlessly
+Parallax: hero background moves slower than content as user scrolls (use GSAP ScrollTrigger or CSS background-attachment: fixed)
+
+
+📜 SCROLL ANIMATIONS (use GSAP ScrollTrigger or Intersection Observer on everything)
+
+Every heading: animate in with words rising from below with a clip-path reveal (like text sliding up from behind a mask)
+Every image/card: fade in from opacity 0 + slight Y translate (from 60px down to 0) with ease
+Stagger product cards: each card animates in 100ms after the previous one
+Section backgrounds: alternate between #0a0a0a and #111111 for depth
+
+
+🃏 PRODUCT CARDS (all 14 fragrances, 350 EGP each)
+
+Dark glass-morphism cards: background: rgba(255,255,255,0.03), border: 1px solid rgba(201,169,110,0.15), backdrop-filter: blur(10px)
+On hover: card lifts up (transform: translateY(-8px)), border glows gold, a subtle gold shimmer sweeps across the card diagonally
+Each card shows: scent name in large Cormorant Garamond, "Inspired by [original]" in small italic off-white, "350 EGP" in gold, and a glowing "Add to Cart" button
+Magnetic button effect: on hover, the button slightly follows the mouse cursor position (moves 5–8px in the direction of the cursor)
+
+
+✨ SPECIAL SECTIONS
+
+Philosophy Strip — full-width dark section with centered large text: "We believe luxury should be felt, not gatekept." — text reveals word by word on scroll
+Horizontal Scroll Section — a pinned section where scrolling vertically moves through cards horizontally (GSAP horizontal scroll pin). Show 4–5 featured products this way
+Number Counter Section — animate counters on scroll: 14 Fragrances / 350 EGP Each / 100% Inspired — numbers count up when they enter the viewport
+
+
+🔘 BUTTONS & MICRO-INTERACTIONS
+
+All buttons: dark background, gold border, gold text — on hover, fill with gold, text goes dark, with a ripple animation expanding outward from click point
+Navigation links: on hover, a thin gold underline slides in from left to right
+WhatsApp order button (floating bottom right): pulsing gold glow animation, opens https://wa.me/ link
+
+
+🎨 COLORS & FONTS
+
+Background: #080808 / #0f0f0f
+Gold: #c9a96e
+Text: #f0ece4
+Accent: #1a1a1a for cards
+Headings: Cormorant Garamond or Playfair Display (Google Fonts)
+Body: DM Sans or Inter
+
+
+🌫️ PARTICLE / ATMOSPHERE EFFECTS
+
+Use an HTML5 Canvas element fixed behind the entire page with very subtle slow-drifting particles (30–50 tiny dots, gold/white, very low opacity 0.08–0.15) — feels like dust in candlelight or perfume mist
+Do NOT make them move fast or be too visible — just atmospheric depth
+
+
+📱 FOOTER
+
+Black, minimal — brand name in large serif, Instagram icon, WhatsApp icon, "Cairo, Egypt" — and the line: "Every scent tells a story. Yours starts at 350 EGP."
+
+
+USE: GSAP (CDN), Google Fonts (Cormorant Garamond + DM Sans), vanilla JS canvas for particles. Keep it a single HTML file if possible, or clean React. No stock images needed — let the design speak through typography and dark atmosphere.
